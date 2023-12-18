@@ -1,0 +1,64 @@
+body {
+    font-style: italic;
+    margin: auto 2em;
+    padding: 1em;
+}
+
+.first {
+    list-style-type: square;
+}
+
+.second {
+    list-style-type: disc;
+}
+
+.three {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #858080;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    width: 2px;
+    height: 100px;
+    background-color: #000;
+    margin: 0 10px
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.vertical-line {
+    width: 2px; /* Широчина на вертикалната линия */
+    min-height: 100px; /* Минимална височина на линията, ако контейнерът няма друго съдържание */
+    background-color: #000; /* Цвят на вертикалната линия */
+    margin-right: 20px; /* Разстояние от текста отдясно */
+}
+
+.text-content {
+    flex: 1; /* Елементът с текст ще заема останалото място */
+}
+
+
+
