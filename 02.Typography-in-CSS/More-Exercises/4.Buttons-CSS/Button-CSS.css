@@ -1,0 +1,21 @@
+body {
+    background-color: #dddddd;
+    margin: 50px;
+}
+
+button {
+    border-radius: 15pX;
+    padding: 5px;
+    margin: 5px;
+}
+
+button:last-child:hover {
+    background-color: green;
+    color: white;
+}
+
+div:not(:first-of-type) button {
+    background-color: black;
+    color: white;
+}
+
