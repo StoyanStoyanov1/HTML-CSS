@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+button {
+    padding: 4px 12px 4px 12px;
+    line-height: 20px;
+    color: #fff;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.shopping {
+    background-color: #83a94c;
+}
+
+.info {
+    background-color: #008ed0;
+}
+
+.delete {
+    background-color: #cc4036;
+}
