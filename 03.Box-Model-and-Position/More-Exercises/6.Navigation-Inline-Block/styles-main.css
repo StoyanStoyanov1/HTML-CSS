@@ -1,0 +1,15 @@
+hr {
+    border: none;
+    height: 2px;
+    background-color: #ccc;
+    margin-top: -10px;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main p {
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+}
