@@ -1,0 +1,29 @@
+main {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    padding: 8px 12px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+    font-size: 14px;
+}
