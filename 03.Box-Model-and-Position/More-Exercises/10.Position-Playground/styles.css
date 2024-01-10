@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.container:nth-child(1) {
+    background: linear-gradient(90deg, rgba(0,118,232,1) 0%, rgba(50,210,242,1) 39%, rgba(0,252,211,1) 65%, rgba(3,241,186,1) 81%, rgba(2,218,158,1) 100%);
+;
+}
+
+.container:nth-child(2) {
+    background: linear-gradient(90deg, rgba(232,0,0,1) 0%, rgba(242,101,50,1) 26%, rgba(252,122,0,1) 57%, rgba(241,162,3,1) 81%, rgba(218,154,2,1) 100%);;
+}
+
+.card {
+    width: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0 0 1em 0.5em rgb(0,0,0,0.2);
+    border: 1px solid rgb(255, 255, 255, 0.5);
+
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .inner-shadow {
+    background: rgb(0,0,0,0.2);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 1em 0.5em rgb(0,0,0,0.5) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover .inner-shadow {
+    opacity: 0.1;
+}
+
+.star {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: white;
+}
