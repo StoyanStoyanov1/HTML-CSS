@@ -1,13 +1,13 @@
-header {
-    border-radius: 3px;
-    padding: 8px 10px;
-    background-color: #dceaf4;
-    border: 1px solid #bfcacb;
-}
-
 header * {
     display: inline;
-    vertical-align: middle;
+    padding: 8px 10px;
+}
+
+header {
+    border: 1px solid #bfcacb;
+    background-color: #dceaf4;
+    padding: 8px 10px;
+    border-radius: 3px;
 }
 
 nav ul {
@@ -44,13 +44,9 @@ footer {
     padding: 5px 10px;
     border-radius: 3px;
     background-color: #dceaf4;
-    border: 1px solid #bfcacb;
+    border: 1px solid #bfcacb
 }
 
 footer p {
     margin: 5px;
-}
-
-h2 {
-    background-color: #b7d7e8;
 }
