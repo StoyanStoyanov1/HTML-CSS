@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Working-with-Forms</title>
+</head>
+<body>
+<form action="#" method="post">
+    <input type="text" name="test" id="test"><br>
+    <input type="text" name="test" id="other">
+
+    <br><br>
+
+    <textarea name="text" id="text" cols="30" rows="10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas veniam, placeat perferendis corrupti blanditiis explicabo consequuntur qui necessitatibus illum deleniti similique aliquid dolorem nam recusandae natus suscipit ullam? Sed, fuga.</textarea>
+
+    <br><br>
+
+    <label for="first-name">First name:</label><br>
+    <input type="text" name="first-name" id="first-name">
+    <br>
+    <label for="last-name">Last name:</label><br>
+    <input type="text" name="last-name" id="last-name">
+
+    <br><br>
+
+    <button>Click Me!</button>
+
+    <br><br>
+
+    <fieldset>
+        <legend>The Legend !</legend>
+        <label for="first-name">First name:</label><br>
+        <input type="text" name="first-name" id="first-name">
+        <br>
+        <label for="last-name">Last name:</label><br>
+        <input type="text" name="last-name" id="last-name">
+    </fieldset>
+
+    <br><br>
+
+    <select name="choose-make" id="make">
+        <option>Volvo</option>
+        <option>Saab</option>
+        <option>Mercedes</option>
+        <option>Audi</option>
+    </select>
+
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+
+    <datalist id="ice-cream-flavors">
+        <option>Edge</option>
+        <option>Firefox</option>
+        <option>Chrome</option>
+        <option>Opera</option>
+        <option>Safari</option>
+    </datalist>
+</form>
+</body>
+</html>
