@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 4em;
+}
+
+html {
+    font: 16px/1.25 Verdana, sans-serif;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    padding-bottom: 1em;
+}
+
+nav ul li {
+    list-style: none;
+    display: block;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 55em;
+    margin: 2em auto;
+    gap: 4em;
+}
+
+body {
+    background: rgb(238, 238, 238);
+}
+
+img {
+    background: white;
+}
+
+blockquote,
+h2 h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", sans-serif;
+}
+
+a {
+    color: rgb(0, 154, 0);
+}
+
+.page > header {
+    border-bottom: 2px solid #000000;
+    flex: 1 1 100%;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+}
+
+p {
+    padding-bottom: 1.5em;
+}
+
+.page > main {
+    flex: 1 1 65%;
+}
+
+.page > aside {
+    flex: 1 1 25%;
+}
+
+
+
+img[class*="align"] {
+    display: block;
+    padding: 0.5em;
+    background: #FFFFFF;
+    border: 6px solid black;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}
