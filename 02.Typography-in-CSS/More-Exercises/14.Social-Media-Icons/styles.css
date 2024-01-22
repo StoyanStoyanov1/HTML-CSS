@@ -1,0 +1,46 @@
+ul li {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    background: #DDDDDD;
+    margin: 5px;
+}
+
+ul {
+    text-decoration: none;
+}
+ul li i {
+    color: black;
+}
+
+
+.facebook :hover {
+    color: #D01919;
+    transition: color 0.3s ease;
+}
+
+.twitter :hover {
+    color: #2fcc71;
+    transition: color 0.3s ease;
+
+}
+
+.google :hover {
+    color: #327DC4;
+    transition: color 0.3s ease;
+
+}
+
+.linkedin :hover {
+    color: #f2dcbb;
+    transition: color 0.3s ease;
+
+}
+
+.instagram :hover {
+    color: #eaea92;
+    transition: color 0.3s ease;
+}
+
+
+
