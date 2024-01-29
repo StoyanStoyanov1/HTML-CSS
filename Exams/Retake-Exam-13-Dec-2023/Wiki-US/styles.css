@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto:wght@100&display=swap");
+
+
+html {
+    font-family: Agbalumo;
+}
+
+body {
+    padding: 40px;
+}
+
+main {
+    border: solid 2px black;
+    width: 900px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #d5ebea;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header p {
+    color: black;
+    margin: 0 0 0 20px;
+    padding: 0px;
+    font-size: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.photo {
+    display: inline-block;
+    background: white;
+    width: 36%;
+    height: 340px;
+    border: solid 2px black;
+}
+
+main .photo img, p {
+    margin: 10px;
+    width: 92%;
+    max-height: 200px;
+    font-size: 12px;
+    text-indent: 30px;
+}
+
+.description {
+    background: white;
+    padding: 40px 20px;
+}
+
+#description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#description p {
+    width: 500px;
+    margin: 20px;
+    font-size: 18px;
+}
+
+#description > p {
+    margin-bottom: 0px;
+}
+
+#description p:last-child {
+    margin-top: 0px;
+}
+
+.facts {
+    background: white;
+}
+
+.facts h2 {
+    color: white;
+    background: black;
+    margin: 0px;
+    width: 400px;
+    text-align: center;
+}
+
+.facts div {
+    margin-top: 0px;
+    padding-top: 5px;
+    background: #d5ebea;
+}
+
+.facts div p {
+    font-size: 18px;
+}
+
+.facts div p span {
+    font-weight: bold;
+}
