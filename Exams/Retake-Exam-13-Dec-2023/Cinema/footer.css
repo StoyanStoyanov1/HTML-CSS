@@ -1,0 +1,13 @@
+footer {
+    background: #2ca27a;
+    padding: 2em;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer span {
+    color: rgba(255, 255, 255, 0.85);
+}
