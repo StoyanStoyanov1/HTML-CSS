@@ -1,0 +1,42 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav .nav-header {
+    display: flex;
+}
+
+nav .nav-header h1{
+    margin-right: 20px;
+    border-right: 1px solid #8f8f8f;
+    padding: 8px;
+}
+
+nav .nav-header p {
+   margin-top: 22px;
+   font-size: 12px;
+   color: #8f8f8f;
+}
+
+nav .nav-buttons {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-buttons li {
+    background: #f1f1f1;
+    align-content: center;
+    padding: 15px;
+}
+
+nav .nav-buttons li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .nav-buttons li:hover {
+    background: #b2f8e0;
+}
