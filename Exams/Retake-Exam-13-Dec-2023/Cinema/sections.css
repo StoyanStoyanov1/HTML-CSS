@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.cinema-background img{
+    width: 100%;
+}
+
+main {
+    background: #b2f8e0;
+}
+
+.main-text {
+    padding: 3em;
+    text-align: center;
+}
+
+.info {
+    background: #444444;
+}
+
+.info {
+    display: flex;
+    padding: 4em;
+}
+
+.info .container {
+    margin: 1em;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.info .container article {
+    background: #b2f8e0;
+    margin-bottom: 10px;
+}
+
+.info .container article i {
+    color: #FFFFFF;
+    font-size: 2em;
+    align-self: center;
+    margin: 18px
+}
+
+.info .container h3 {
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info .container .with-top-border {
+    border-top: 1px solid #FFFFFF;
+}
+
+.info .container p {
+    color: #d2cece;
+    padding: 10px;
+    text-align: center;
+}
+
+.more-info {
+    margin: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-info p{
+    font-size: 11px;
+    color: #bebebe;
+}
+
+.more-info .button{
+    border: 1px solid rgba(98, 42, 42, 0.89);
+    padding: 8px 12px;
+    margin-top: 15px;
+    background: rgba(98, 42, 42, 0.89);
+    border-radius: 2px;
+}
+
+.more-info .button p {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+
