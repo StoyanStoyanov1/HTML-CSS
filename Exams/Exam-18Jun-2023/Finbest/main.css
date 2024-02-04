@@ -1,0 +1,145 @@
+.container-info {
+    display: flex;
+    padding: 2em 5em;
+    text-align: center;
+}
+
+.container-info section {
+    border-right: 1px solid #ccc8c8;
+    padding: 30px 30px;
+}
+
+.container-info section:first-of-type {
+    border-left: 1px solid #ccc8c8;
+
+}
+
+.container-info p {
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.container-tel {
+    background: #b7e8dd;
+    display: flex;
+}
+
+.container-tel img {
+    width: 12em;
+    height: auto;
+}
+
+.container-tel article {
+    border: 1px dashed #8f8f8f;
+    margin-left: 8em;
+}
+
+.container-plans {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.container-plans section h3, h5, p {
+    padding: 8px;
+}
+
+.plans {
+    border-bottom: 1px solid #000000;
+    width: 155px;
+}
+
+.container-setup {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-setup p {
+    margin: 30px 380px;
+    background: #b7e8dd;
+    border-radius: 8px;
+}
+
+.container-abo {
+    margin-top: 50px;
+    display: flex;
+    background: #FFFFFF;
+    padding: 1em;
+}
+
+.abo {
+    max-width: 170px;
+    padding: 10px;
+    border-right: 1px solid #dcd8d8;
+}
+
+.abo ul,
+.container-contact ul{
+    list-style-type: none;
+
+}
+
+.abo ul li,
+.container-contact ul li{
+    font-size: 10px;
+    padding: 3px 0;
+    font-weight: normal;
+}
+
+.abo h4,
+.container-contact h4{
+    text-align: center;
+}
+
+.abo h3 {
+    border-bottom: 1px solid #d0cbcb;
+    padding-bottom: 20px;
+}
+
+.abo p {
+    font-size: 12px;
+}
+
+.abo .month {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.get-premium {
+    text-align: center;
+    justify-items: center;
+    background: #b7e8dd;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.abo ul li::before,
+.container-contact ul li:before{
+    content: "\2713";
+    color: green;
+    margin-right: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.container-contact {
+    background: #b7e8dd;
+}
+
+.container-contact ul {
+    padding-left: 10px;
+}
+
+.button {
+    text-align: center;
+    margin: 100px 20px 0 20px;
+    background: black;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+
+
+
