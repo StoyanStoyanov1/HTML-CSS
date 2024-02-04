@@ -1,0 +1,29 @@
+aside {
+    background: #b7e8dd;
+    padding: 50px;
+
+}
+
+aside section {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+aside h2 {
+    font-size: 32px;
+}
+
+aside p {
+    font-size: 10px;
+}
+
+.container-downloads {
+    display: flex;
+}
+
+.container-downloads p a{
+    background: black;
+    padding: 4px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
