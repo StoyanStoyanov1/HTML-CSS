@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css?family=PT+Serif";
+@import "https://fonts.googleapis.com/css?family=PT+Sans:400,700";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4, p{
+    font-family: 'PT Serif', sans-serif;
+}
+
