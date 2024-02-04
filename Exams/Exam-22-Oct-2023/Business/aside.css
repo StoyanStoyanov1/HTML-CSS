@@ -1,0 +1,17 @@
+aside {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+aside h4 {
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+
+aside p {
+    color: #8f8f8f;
+    font-size: 10px;
+    margin: 10px 0;
+}
