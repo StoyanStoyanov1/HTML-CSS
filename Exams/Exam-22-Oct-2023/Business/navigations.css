@@ -1,0 +1,48 @@
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+header {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35vh;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+li {
+    margin:10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+header section {
+    color: #FFFFFF;
+    margin-left: 7em;
+    margin-top: 1em;
+    width: 23em;
+}
+
+header section p {
+    font-size: 12px;
+    padding-top: 10px;
+    color: #d2d0d0;
+}
