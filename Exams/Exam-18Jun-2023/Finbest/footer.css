@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 10px;
+    padding-left: 30px;
+}
+
+.contact i{
+    margin-right: 10px;
+}
