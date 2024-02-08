@@ -1,0 +1,33 @@
+main {
+    background: #d9d3d3;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+}
+
+.main-section {
+    display: flex;
+    gap: 1em;
+}
+
+.right-article {
+    padding: 0.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+}
+
+.right-article p {
+    font-size: 10px;
+}
+
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+
