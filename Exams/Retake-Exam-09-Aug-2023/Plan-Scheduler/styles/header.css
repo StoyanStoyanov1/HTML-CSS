@@ -1,0 +1,38 @@
+header {
+    background-image: url("background.jpg");
+    background-position: center -80px;
+    background-size: cover;
+
+}
+
+
+.tm-header-section {
+    padding: 3em 8em;
+    width: 70%;
+}
+
+.tm-header-section h1 {
+    font-size: 30px;
+}
+
+.tm-header-section p {
+    padding-top: 40px
+}
+
+.header-button a {
+    color: #cec9c9;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 0.7em;
+    border-radius: 3px;
+    background: black;
+    font-size: 8px;
+}
+
+.tm-header-section p {
+    color: #f5f3f3;
+    font-size: 12px;
+}
+
+
+
