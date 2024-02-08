@@ -1,0 +1,10 @@
+footer {
+    background: #d9d3d3;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 8em;
+}
+
+footer a {
+    color: black;
+}
