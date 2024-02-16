@@ -1,0 +1,44 @@
+@media (max-width: 600px){
+    .home-cta-btn {
+        padding: 12px;
+    }
+
+    .home-links-container {
+        padding-left: 26px;
+    }
+
+    .home-hero {
+        flex-direction: column-reverse;
+    }
+
+    .home-image1,
+    .home-hero-text-container {
+        width: 100%;
+    }
+
+    .home-cta-btn2 {
+        margin: 0 auto;
+        padding: 12px;
+    }
+
+    .home-heading-container {
+        width: 100%;
+    }
+    .home-cards-container {
+        flex-direction: column;
+        gap: 1em
+    }
+
+    .home-feature-card,
+    .home-feature-card1,
+    .home-feature-card2{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .home-stats {
+        grid-template-columns: none;
+        margin-top: 1000px
+    }
+
+}
