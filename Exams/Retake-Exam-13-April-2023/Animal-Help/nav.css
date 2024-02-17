@@ -1,0 +1,32 @@
+.site {
+    width: 1000px;
+    margin: 0 auto;
+    background: #f8f6f6;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul {
+    list-style-type: none;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.right-nav ul {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+.left-nav {
+    padding: 1em 4em;
+}
+
