@@ -1,0 +1,85 @@
+.first-main-containerw {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+
+}
+
+.first-main-section {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.first-main-section h3 {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.first-main-section p {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.first-main-second-section {
+    display: flex;
+    gap: 2em;
+    padding: 1em 4em;
+}
+
+
+.first-main-second-section i {
+    font-size: 80px;
+    line-height: 2;
+    color: #85dcff;
+    display: flex;
+    justify-content: center;
+}
+
+.first-main-second-section h3 {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.first-main-second-section p {
+    text-align: center;
+}
+
+.second-main-container {
+    background: #85dcff;
+}
+
+.second-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    padding: 2em;
+}
+
+.second-main-container section {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    gap: 2em
+}
+
+.second-main-container ul {
+    width: 350px;
+}
+
+
+.second-main-container li {
+    font-size: 16px;
+    padding: 0.7em 0;
+}
+
+.main-button {
+    text-decoration: none;
+    font-size: 10px;
+    color: #FFFFFF;
+    background: black;
+    padding: 1em 4em;
+}
