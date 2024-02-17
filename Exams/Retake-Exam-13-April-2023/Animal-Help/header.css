@@ -1,0 +1,42 @@
+.header-container {
+    background: #85dcff;
+    display: flex;
+    gap: 6em;
+    align-items: center;
+    padding: 0 4em;
+}
+
+.left-header-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 1em;
+}
+
+.left-header-button,
+.right-header-button{
+    text-decoration: none;
+    color: black;
+    background: #FFFFFF;
+    padding: 0.7em 4em;
+    border-radius: 0.3em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.right-header-button {
+    color: #FFFFFF;
+    background: black;
+}
+
+.left-header-section p {
+    font-size: 12px;
+}
+
+
+
+
