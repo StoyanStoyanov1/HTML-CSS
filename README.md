@@ -1,0 +1,5 @@
+ <h1>About the Course</h1>
+    <p>The "HTML & CSS" course aims to provide foundational knowledge in web technologies, focusing on HTML5 and CSS3. Participants will learn the basics of web development, including the use of web browsers and HTML/CSS/DOM development tools. The course covers essential HTML tags and CSS selectors and styling methods. Emphasis is placed on practical exercises in web page design, including the creation of complete, modern websites with responsive design. The course addresses the latest standards in HTML5 and CSS3 to prepare participants for developing contemporary web content.</p>
+    <p>This is the work I have done during this course, which has been assigned by SoftUni and tested <a href="https://judge.softuni.org/Contests/#!/List/ByCategory/135/HTML-and-CSS-Exams">here</a>.</p>
+    <p>You can find the course <a href="https://softuni.bg/trainings/4361/html-and-css-january-2024">here</a>.</p>
+    <div  class="center"><img src="https://softuni.bg/certificates/certificates/converttoimage/204996?code=bd396252" alt="CERTIFICATE" style="width: 300px; height: auto;"></div>
